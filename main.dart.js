@@ -68619,8 +68619,8 @@ p.$1("_setupHand3")
 return A.L(null,r)}})
 return A.M($async$li,r)},
 Il(a){var s,r,q=this
-if(q.z.length===0)q.p2()
-else{s=q.a
+if(q.z.length===0){q.f=""
+q.p2()}else{s=q.a
 s=s.ga8(s)
 r=B.e.bu(B.b.cZ(A.ac(s,!0,A.p(s).i("n.E")),a)+1,4)
 s=q.a
@@ -69321,11 +69321,10 @@ A.aEw(s,A.a(q.f,p))}if(b==="called")if(A.a(A.a(q.f,p).dx,n).y!==A.a(A.a(q.f,p).d
 s.toString
 A.Fc(s+"\u304c\u9cf4\u3053\u3046\u3068\u3057\u3066\u3044\u307e\u3059\u3002",2,"center")}if(b==="processingFinishHand"){if(A.a(A.a(q.f,p).dx,n).f===A.a(A.a(q.f,p).db,o)&&A.a(q.f,p).a9U()){s=q.c
 s.toString
-A.aEy(s,A.a(q.f,p))}if(A.a(A.a(q.f,p).dx,n).f!==A.a(A.a(q.f,p).db,o)){s=A.a(q.f,p).cx.h(0,A.a(A.a(q.f,p).dx,n).f)
+A.aEy(s,A.a(q.f,p))}if(A.a(A.a(q.f,p).dx,n).f!==A.a(A.a(q.f,p).db,o)){r=A.a(q.f,p).cx.h(0,A.a(A.a(q.f,p).dx,n).f)
+if(r!=null){s=q.c
 s.toString
-r=q.c
-r.toString
-A.ajA(r,s+"\u3055\u3093\u304c\u30a2\u30ac\u30ea\u307e\u3057\u305f\u3002",null)}}},
+A.ajA(s,r+"\u3055\u3093\u304c\u30a2\u30ac\u30ea\u307e\u3057\u305f\u3002",null)}}}},
 ads(a){var s
 A.at("onChangeGameTableData")
 s=A.ab(["_setupHand2",A.aqx(),"_setupHand3",A.RV(),"handleDrawTile",A.aqx(),"handleDiscardTile",A.aED(),"handlePongOrChow",A.RV(),"handleOpenKan",A.RV(),"handleCloseKan",A.RV(),"handleLateKan",A.RV(),"handleOpenTiles",A.aEE(),"handleWin",A.RU(),"handleRequestNextHand",A.RU(),"handleCall",A.RU(),"handleCancelCall",A.RU(),"handleRequestDrawGame",A.RU()],t.N,t._8).h(0,a)
