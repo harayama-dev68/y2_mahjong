@@ -69,7 +69,7 @@
       let minValue = audioDataArray.reduce((min, p) => p < min ? p : min);
       let maxValue = audioDataArray.reduce((max, p) => p > max ? p : max);
       let diffValue = maxValue - minValue;
-      console.log(diffValue);
+      // console.log(diffValue);
       onAnalyseVoiceLoop(diffValue);
       // console.log('index: analyseVoiceLooper: X');
     }
